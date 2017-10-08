@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,12 @@ public class AboutHelp extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_help, container, false);
+        View in = inflater.inflate(R.layout.fragment_about_help, container, false);
+        TextView about = (TextView) in.findViewById(R.id.about);
+        TextView help = (TextView) in.findViewById(R.id.help);
+        about.setText(R.string.about_section);
+        help.setText(R.string.help_section);
+        return in;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

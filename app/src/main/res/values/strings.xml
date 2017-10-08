@@ -2,6 +2,14 @@
     <string name="app_name">StudySpaces</string>
     <string name="title_activity_find_study_spots">Map</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_section">
+        Yoyoyo!!
+        \nThis app was created by three super studious and academically focused dogs.
+        \nPlease sponsor us by giving us internships!!
+        \nGoogle, Facebook, Apple, Microsoft, Amazon reaccs only.
+    </string>
+    <string name="help_section">
+        Hi! This app is flawless, so stop saying mistakes are our fault when it\'s yours >(.
+        \nEmail fake concerns at fakebakecookies@gmail.com.
+    </string>
 </resources>
